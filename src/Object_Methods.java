@@ -28,11 +28,10 @@ public class Object_Methods {
 
         //Конец работы с методом equals
 
-        boolean isBookHashcodeEquals = book1.hashCode() == book2.hashCode();
-        System.out.println("Код 1: " + book1.hashCode() + " Код 2: " + book2.hashCode());
-
-        boolean isAuthorHashcodeEquals = authorBook1 == authorBook2;
-        System.out.println("Код 1: " + authorBook1.hashCode() + " Код 2: " + authorBook2.hashCode());
+        System.out.println("Book1 Hash: " + book1.hashCode());
+        System.out.println("Book2 Hash: " + book2.hashCode());
+        System.out.println("authorBook1 Hash: " + authorBook1.hashCode());
+        System.out.println("authorBook2 Hash: " + authorBook2.hashCode());
 
         //конец работы с методом hashCode
     }
